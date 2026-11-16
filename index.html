@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Александра Лебедева — портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a class="logo" href="#home" aria-label="На главную">А С Л</a>
+
+            <nav aria-label="Основная навигация">
+                <a href="#about">Обо мне</a>
+                <a href="#skills">Навыки</a>
+                <a href="#projects">Проекты</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </header>
+
+        <main id="home">
+            <section class="hero">
+                <div class="hero-text">
+                    <p class="eyebrow">Учебное портфолио</p>
+                    <h1>Александра<br><span>Лебедева</span></h1>
+                    <p class="intro">
+                        Изучаю программирование, базы данных
+                        и веб-разработку.
+                    </p>
+
+                    <div class="buttons">
+                        <a class="button primary" href="#projects">
+                            Мои проекты
+                        </a>
+                        <a class="button secondary" href="https://github.com/aleksandrs1111">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </div>
+
+                <div class="decoration" aria-hidden="true">
+                    <div class="shape shape-back"></div>
+                    <div class="shape shape-front">&lt;/&gt;</div>
+                    <div class="orbit"></div>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <h2 class="section-label">01 / Обо мне</h2>
+                <div>
+                    <p class="about-title">
+                        Учусь создавать понятные и удобные
+                        цифровые решения.
+                    </p>
+                    <p>
+                        Работаю с HTML и CSS, пишу программы
+                        на Java и изучаю PostgreSQL.
+                    </p>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2 class="section-label">02 / Навыки</h2>
+
+                <div class="cards">
+                    <article class="card">
+                        <h3>HTML / CSS</h3>
+                        <p>Вёрстка и оформление</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Java</h3>
+                        <p>Массивы и алгоритмы</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>PostgreSQL</h3>
+                        <p>Таблицы и SQL-запросы</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2 class="section-label">03 / Проекты</h2>
+
+                <article class="project">
+                    <span class="project-number">01</span>
+                    <div>
+                        <h3>База данных парфюмерии</h3>
+                        <p>
+                            Таблицы товаров и категорий,
+                            связи между ними и выборка данных.
+                        </p>
+                    </div>
+                    <span class="tag">PostgreSQL</span>
+                </article>
+
+                <article class="project">
+                    <span class="project-number">02</span>
+                    <div>
+                        <h3>Обработка матриц</h3>
+                        <p>
+                            Поиск минимальных и максимальных элементов,
+                            вычисление средних значений.
+                        </p>
+                    </div>
+                    <span class="tag">Java</span>
+                </article>
+            </section>
+
+            <section id="contacts" class="contacts">
+                <h2>Давайте знакомиться! </h2>
+                <a href="https://github.com/aleksandrs1111">
+                    github.com/aleksandrs1111 ↗
+                </a>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2026 Александра Лебедева. Учебное портфолио.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
